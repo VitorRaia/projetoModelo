@@ -10,27 +10,37 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".ActivitySobre" android:label="@string/title_activity_sobre">
+
+
+        </activity>
+
+        <activity
+            android:name=".ActivityConsulta"
+            android:label="@string/title_activity_consulta">
+
+        </activity>
+
+        <activity
+            android:name=".ActivityCadastro"
+            android:label="@string/title_activity_cadastro">
+        </activity>
+
+        <activity
+            android:name=".ActivityLogin1"
+            android:label="Login">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActivityConsulta" android:label="@string/title_activity_consulta">
-
-        </activity>
-        <activity android:name=".ActivityCadastro" android:label="@string/title_activity_cadastro">
-
-
-        </activity>
 
         <activity
             android:name=".ActivityMenu"
             android:label="@string/title_activity_menu"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity android:name=".ActivityLogin1">
 
-        </activity>
         <activity
             android:name=".FullscreenActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"
